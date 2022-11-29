@@ -1,0 +1,41 @@
+package com.perscholas.java_basics;
+
+public class MainJavaBasics {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*Write a program that declares 2 integer variables, assigns an integer to each, and adds them together.
+		 *Assign the sum to a variable.
+		 *Print out the result. 
+		 */
+		int i = 10;
+		int j = 20;
+		int x = i+j;
+		
+		System.out.println(x);
+		//--------------------------------------
+		/*Write a program that declares 2 double variables, assigns a number to each, and adds them together.
+		 *Assign the sum to a variable.
+		 *Print out the result.
+		 */
+		double a = 1.11;
+		double b = 2.22;
+		double c = a+b;
+		
+		System.out.println(c);
+		//--------------------------------------
+		
+		int z = 100;
+		double y = 100.25;
+		double d = z+y;
+		
+		System.out.println(d);
+		
+		int m = 25;
+		int n = 55;
+		double o = n/m;
+		
+		System.out.println(o);
+	}
+
+}

@@ -1,0 +1,111 @@
+package com.perscholas.java_basics;
+
+public class MainJavaBasics {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*Write a program that declares 2 integer variables, assigns an integer to each, and adds them together.
+		 *Assign the sum to a variable.
+		 *Print out the result. 
+		 */
+		int i = 10;
+		int j = 20;
+		int x = i+j;
+		
+		System.out.println(x);
+		
+		//--------------------------------------
+		/*Write a program that declares 2 double variables, assigns a number to each, and adds them together.
+		 *Assign the sum to a variable.
+		 *Print out the result.
+		 */
+		double a = 1.11;
+		double b = 2.22;
+		double c = a+b;
+		
+		System.out.println(c);
+		
+		//--------------------------------------
+		/*Write a program that declares 2 double variables, assigns a number to each, and adds them together.
+		 *Assign the sum to a variable.
+		 *Print out the result. 
+		 */
+		int z = 100;
+		double y = 100.25;
+		double d = z+y;
+		
+		System.out.println(d);
+		
+		//--------------------------------------
+		/*Write a program that declares an integer variable and a double variable, assigns numbers to each, and adds them together.
+		 *Assign the sum to a variable.
+		 *Print out the result.
+		 *What variable type must the sum be?
+		 *	Answer: The sum must be a double variable type.  
+		 */
+		int m = 25;
+		double n = 55.11;
+		double o = n+m;
+		
+		System.out.println(o);
+		
+		//--------------------------------------
+		/*Write a program that declares 2 integer variables, assigns an integer to each, and divides the larger number by the smaller number.
+		 *Assign the result to a variable.
+		 *Print out the result.
+		 *Now change the larger number to a decimal.
+		 *What happens?
+		 *	Answer: You get an error because you are dividing to different variables.
+		 *You can type case the variable or change it to a double to get a better result.
+		 *What corrections are needed?
+		 *	Answer: I simple changed the int value with decimals to a double and changed the result to a double variable. 
+		 */
+		int aa = 25;
+		double bb = 45.5;
+		double cc = bb/aa;
+		System.out.println(cc);
+		
+		//---------------------------------------
+		/*Write a program that declares 2 double variables, assigns a number to each, and divides the larger by the smaller.
+		 *Assign the result to a variable.
+		 *Print out the result.
+		 *Now, cast the result to an integer.
+		 *Print out the result again.
+		 */
+		double dd = 15.6;
+		double ff = 17.5;
+		double ee = (int) (ff/dd);
+		System.out.println(ee);
+		
+		//--------------------------------------
+		/*Write a program that declares two integer variables, x, and y, and assigns 5 to x and 6 to y.
+		 *Declare a variable q and assign y/x to it and print q.
+		 *Now, cast y to a double and assign it to q.
+		 *Print q again. 
+		 */
+		int xx = 5;
+		int yy = (int)6;
+		double q = (int)yy/xx;
+		System.out.println(q);
+		
+		//----------------------------------------
+		/*Write a program that declares a named constant and uses it in a calculation.
+		 *Print the result. 
+		 */
+		final double pi = 3.1415;
+		double r = 5;
+		double perimeter = 2*pi*r;
+		System.out.println("The perimeter of a cirle with a radius of 5 cm is " + perimeter);
+		
+		
+		//----------------------------------------
+		/*Write a program where you create 3 variables that represent products at a cafe.
+		 *The products could be beverages like coffee, cappuccino, espresso, green tea, etc.
+		 *Assign prices to each product.
+		 *Create 2 more variables called subtotal and totalSale and complete an “order” for 3 items of the first product, 4 items of the second product, and 2 items of the third product.
+		 *Add them all together to calculate the subtotal.
+		 */
+		
+	}
+
+}
